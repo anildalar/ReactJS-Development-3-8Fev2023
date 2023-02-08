@@ -1,0 +1,63 @@
+Default Port is 3000
+
+We can change with package.json file
+
+under 
+
+"scripts": {
+    "start": "SET PORT=4000 && react-scripts start",		}
+
+Bcoz ReactJs create SPA application
+
+Single Page Application
+
+That single page is under public folder named
+index.html
+
+public/index.html
+
+What is location inside index.html where the elements are loaded?
+Inside the content area of div#root
+
+<div id="root">
+</div>
+
+BS
+
+Rows are parent
+Cols are childrens
+
+Blocking Technique
+
+CSS 
+
+How ReactJs Application Knows which element will be loaded in the Index.html file
+
+
+index.js main entry/logic file of ReactJs application
+
+npm start  -> src/index.js ---Some Element ---> index.html
+
+
+Nested Components/Elements
+
+
+MyComponent1(Parent)
+		MyCompoent2 (Child)
+
+ReactJs Project are nothing but NodeJs Project
+
+NodeJs
+	Very IMP concept
+	Import/Export
+
+Assignment
+
+A
+	B
+		C
+			D
+				E
+
+					.....
+								Z
